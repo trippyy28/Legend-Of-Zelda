@@ -1,4 +1,4 @@
-export function keyDownHandler(e, link, map) {
+export function keyDownHandler(e, link) {
   switch (e.keyCode) {
     case 37:
       link.move("left", map7_7);
